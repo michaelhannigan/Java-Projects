@@ -85,13 +85,21 @@ out.print(sale.getAmount());
 out.print(";");
 out.print(sale.getDate());
 out.println();
+System.out.print(sale.getName());
+System.out.print(";");
+System.out.print(sale.getServiceCategory());
+System.out.print(";");
+System.out.print(sale.getAmount());
+System.out.print(";");
+System.out.print(sale.getDate());
+System.out.println();
 }
 
 public static void main(String[] args)
 {
 Scanner in = new Scanner(System.in);
 String filename = getFileName(in);
-System.out.println(filename);
+
 
 try
 {

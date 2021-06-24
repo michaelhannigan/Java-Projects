@@ -20,12 +20,13 @@ import java.util.Scanner;
 public class FileOutput {
 
 	/**
-	 * @param args
+	 * @param args      
 	 */
 	static PrintWriter printWriter;
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//YOU NEED TO VALIDATE THE DATE 
 		
 		//create a hash map to store the contents of each type of service
 		HashMap<String, LinkedList<String>> map = new HashMap<String,LinkedList<String>>();
